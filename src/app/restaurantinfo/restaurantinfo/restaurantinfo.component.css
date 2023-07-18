@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  h1 {
+    color: #333;
+  }
+  p {
+    color: #666;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .restaurant-info {
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .restaurant-info h2 {
+    color: #333;
+    margin-top: 0;
+    font-size: 28px;
+    background-color: #ff3366;
+    padding: 10px;
+    display: inline-block;
+  }
+  .restaurant-info p {
+    margin-bottom: 10px;
+  }
+  .contact-info a {
+    color: #0088cc;
+    text-decoration: none;
+  }
+  .menu {
+    margin-bottom: 20px;
+    background-color: #fff3e6;
+    padding: 20px;
+  }
+  .menu h3 {
+    color: #333;
+    margin-top: 0;
+    background-color: #ff9966;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+  }
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  .menu li {
+    margin-bottom: 5px;
+  }
+  .menu img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .specialties {
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .specialties h3 {
+    color: #333;
+    margin-top: 0;
+    background-color: #ffcc66;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+  }
+  .specialties ul {
+    list-style: none;
+    padding: 0;
+  }
+  .specialties li {
+    margin-bottom: 5px;
+  }
+  .specialties img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .opening-hours {
+    margin-bottom: 20px;
+    background-color: #e6f7ff;
+    padding: 20px;
+  }
+  .opening-hours h3 {
+    color: #333;
+    margin-top: 0;
+    background-color: #66ccff;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+  }
+  .opening-hours table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .opening-hours th,
+  .opening-hours td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #666;
+  }
+  .facilities {
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .facilities h3 {
+    color: #333;
+    margin-top: 0;
+    background-color: #ff9966;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+  }
+  .facilities ul {
+    list-style: none;
+    padding: 0;
+  }
+  .facilities li {
+    margin-bottom: 5px;
+  }
+  .facilities img {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+  }
+  .reviews {
+    margin-bottom: 20px;
+    background-color: #fff3e6;
+    padding: 20px;
+  }
+  .reviews h3 {
+    color: #333;
+    margin-top: 0;
+    background-color: #ffcc00;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+  }
+  .reviews blockquote {
+    border-left: 2px solid #666;
+    padding-left: 10px;
+    color: #666;
+    font-style: italic;
+  }
+  .history {
+    margin-bottom: 20px;
+    background-color: #e6f7ff;
+    padding: 20px;
+  }
+  .history h3 {
+    color: #333;
+    margin-top: 0;
+    background-color: #99ccff;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+  }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Information</title>
+</head>
+<body>
+  <div class="container">
+    <div class="restaurant-info">
+      <h2>{{ selectedRestaurantData?.name }}</h2>
+      <p><strong>Location:</strong>{{ selectedRestaurantData?.address }}</p>
+      <p><strong>Contact:</strong> <a href="tel:1234567890">{{ selectedRestaurantData?.mobile }}</a> | <a href="mailto:info@restaurant.com">{{ selectedRestaurantData?.email}}</a></p>
+      <p><strong>Website:</strong> <a href="https://www.restaurant.com">{{ selectedRestaurantData?.website }}</a></p>
+      <p><strong>Cuisine Type:</strong>{{ selectedRestaurantData?.services }}</p>
+    </div>
+    
+    <div class="menu">
+      <h3>Menu</h3>
+      <ul>
+        <li><img src="\assets\images\s-img-1.jpg"><span>Tasty Burger</span></li>
+        <li><img src="\assets\images\s-img-2.jpg"><span>Tasty Pizza</span></li>
+        <li><img src="\assets\images\s-img-3.jpg"><span>cold Ice-Cream</span></li>
+        <li><img src="\assets\images\s-img-4.jpg"><span>Cold Drinks</span></li>
+        <li><img src="\assets\images\s-img-5.jpg"><span>Tasty Sweets</span></li>
+        <li><img src="\assets\images\s-img-6.jpg"><span>Healthy Breakfast</span></li>
+      </ul>
+    </div>
+    
+    <div class="specialties">
+      <h3>Specialties</h3>
+      <ul>
+        <li><img src="\assets\images\p-2.jpg"><span>Tasty Cakes</span></li>
+        <li><img src="\assets\images\p-3.jpg"><span>Tasty Snacks</span></li>
+        <li><img src="\assets\images\p-4.jpg"><span>Tasty Cupcakes</span></li>
+        <li><img src="\assets\images\p-5.jpg"><span>Cold Drinks</span></li>
+      </ul>
+    </div>
+    
+    <div class="opening-hours">
+      <h3>Opening Hours</h3>
+      <table>
+        <tr>
+          <th>Day</th>
+          <th>Opening Time</th>
+          <th>Closing Time</th>
+        </tr>
+        <tr>
+          <td>Monday to Friday</td>
+          <td>10:00 AM</td>
+          <td>9:00 PM</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>9:00 AM</td>
+          <td>11:00 PM</td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="facilities">
+      <h3>Facilities</h3>
+      <ul>
+        <li><img src="\assets\images\Outdoor seating.png"><span>Outdoor Seating</span></li>
+        <li><img src="\assets\images\private dinnings rooms.jpg"><span>Private Dining Rooms</span></li>
+        <li><img src="\assets\images\parking.jpg"><span>Parking</span></li>
+      </ul>
+    </div>
+    
+    <div class="reviews">
+      <h3>Reviews</h3>
+      <blockquote>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus tortor ac tellus varius tempus. Donec sodales congue sem, eu aliquam felis malesuada ut."
+      </blockquote>
+      <blockquote>
+        "Vivamus consequat urna sed nisl fringilla, vitae rutrum dui vestibulum. Nulla facilisi. Curabitur suscipit mauris eu sapien fringilla interdum."
+      </blockquote>
+    </div>
+    
+    <div class="history">
+      <h3>History or Story</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae vestibulum diam. Morbi ut lobortis ante, vitae posuere dui. In sed eleifend eros, id finibus tortor. Donec non finibus lacus, sed dapibus libero. Sed pretium, leo at congue dictum, risus est interdum velit, nec efficitur turpis sapien sed neque. Nullam a consectetur lectus.</p>
+    </div>
+  </div>
+</body>
+</html>
